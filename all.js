@@ -89,3 +89,19 @@ var person = {
 console.log(person.fullName.call(person1, "Oslo", "Norway"));
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Rest Syntax
+/*
+Rest syntax looks exactly like spread syntax. In a way, rest syntax is the opposite of spread syntax. Spread syntax "expands" an array into its elements, 
+while rest syntax collects multiple elements and "condenses" them into a single element. See rest parameters.
+ */
+
+ function myFunc1(...arg){
+     console.log(arg[0] + arg[2]);
+ }
+
+ myFunc1(1,2,23.999,3.3);
+
+ //------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
