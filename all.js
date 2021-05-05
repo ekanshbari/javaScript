@@ -104,4 +104,12 @@ while rest syntax collects multiple elements and "condenses" them into a single 
 
  //------------------------------------------------------------------------------------------------------------------------------------------------------
 
- 
+//  Hositing
+
+var x = 7;
+function getName(){
+  console.log("Namaste JS");
+}
+
+getName();
+console.log(x);
